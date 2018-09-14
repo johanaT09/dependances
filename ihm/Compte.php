@@ -11,6 +11,7 @@ try {
                 $prenom=$ligne['prenom'];
                 $tel=$ligne['tel'];
             }
+            
 } catch (Exception $e) {
     $erreur=$e->getMessage(); 
 }
