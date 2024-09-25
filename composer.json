@@ -1,0 +1,18 @@
+{
+    "name": "jterr/projet-manga_ressources_etudiants",
+    "autoload": {
+        "psr-4": {
+            "Jterr\\ProjetMangaRessourcesEtudiants\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "terrier"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "7.3",
+        "twig/twig": "3.3",
+        "monolog/monolog": "2.3"
+    }
+}
